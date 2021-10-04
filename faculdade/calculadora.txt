@@ -1,0 +1,31 @@
+var soma = function (x, y) {
+ return x + y;
+}
+
+var sub = function (x, y) {
+ return x - y;
+}
+
+function div(x, y){
+ return x / y
+}
+
+function mult(x, y){
+  return x * y
+}
+
+var v1 = Number(prompt("Digite o primeiro valor"))
+var v3 = prompt("operador")
+var v2 = Number(prompt("Digite o segundo valor"))
+
+if (v3 == "+"){
+alert("Resultado: " + soma(v1, v2));
+}
+else if (v3 == "-"){
+alert("Resultado: " + sub(v1, v2));
+}
+else if (v3 == "/"){
+alert("Resultado: " + div(v1, v2));
+}
+else if (v3 == "*")
+alert("Resultado: " + mult(v1, v2));
